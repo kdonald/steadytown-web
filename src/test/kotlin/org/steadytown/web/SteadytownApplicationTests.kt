@@ -9,7 +9,7 @@ import kotlin.test.assertEquals
 
 @ExtendWith(SpringExtension::class)
 @SpringBootTest
-class WebApplicationTests(@Autowired val client: MemberService) {
+class SteadytownApplicationTests(@Autowired val client: MemberService) {
 
 	@Test
 	fun contextLoads() {

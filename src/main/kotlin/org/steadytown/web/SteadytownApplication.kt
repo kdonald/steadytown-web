@@ -9,10 +9,10 @@ import java.time.LocalDate
 import javax.transaction.Transactional
 
 @SpringBootApplication
-class ChangeApplication
+class SteadytownApplication
 
 fun main(args: Array<String>) {
-    runApplication<ChangeApplication>(*args)
+    runApplication<SteadytownApplication>(*args)
 }
 
 @Service
