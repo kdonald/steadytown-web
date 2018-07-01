@@ -1,0 +1,1 @@
+INSERT INTO members (first_name, last_name, birth_date) VALUES ('John', 'Doe', '1980-3-17');
